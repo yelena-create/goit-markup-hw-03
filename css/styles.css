@@ -288,9 +288,9 @@ li {
 .card-item {
   flex-basis: calc(100% / 3- 30px);
 }
-/* .card-heading:first-child {
+.card-list:first-child .card-heading {
   padding-left: 24px;
-} */
+}
 .card-heading {
   display: block;
   width: 370px;
