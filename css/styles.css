@@ -29,15 +29,19 @@ body {
 h3 {
   margin-bottom: 10px;
 }
+.section {
+  padding: 94px 15px 0px 15px;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 94px 15px;
 }
 
 .header {
   height: 80px;
   padding: 0 15px;
+  border-bottom: 1px solid #ececec;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .header.container {
   display: flex;
@@ -114,9 +118,6 @@ h3 {
   margin-bottom: 30px;
   width: 696px;
 }
-/* .container-slider {
-  margin: 0; */
-/* } */
 
 .slider-buttons {
   display: flex;
@@ -273,19 +274,23 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-.card-list {
   margin-top: -30px;
   margin-left: -30px;
 }
-.card-item {
-  flex-basis: calc(100% / 3- 30px);
+.card-list {
+  border-bottom: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: left;
   margin-top: 30px;
   margin-left: 30px;
 }
-.card-heading:first-child {
-  padding-left: 24px;
+.card-item {
+  flex-basis: calc(100% / 3- 30px);
 }
+/* .card-heading:first-child {
+  padding-left: 24px;
+} */
 .card-heading {
   display: block;
   width: 370px;
