@@ -249,6 +249,9 @@ li {
   margin-bottom: 9px;
 }
 /*------------page Potfolio----*/
+.section.portfolio {
+  margin-bottom: 94px;
+}
 .invisible {
   display: none;
 }
