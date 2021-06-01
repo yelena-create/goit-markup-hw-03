@@ -263,13 +263,14 @@ li {
 }
 .footer .container {
   margin: auto;
-  padding: 0 15px;
+  margin: 0 15px;
 }
 .footer a {
   color: var(--background-color);
 }
 .footer address {
   display: block;
+  width: 1200px;
   font-style: normal;
   margin-bottom: 9px;
 }
@@ -326,16 +327,17 @@ li {
   text-align: left;
   margin-top: 30px;
   margin-left: 30px;
+  width: 370px;
 }
-.card-item:nth-child(3n + 1) {
+/* .card-item:nth-child(3n + 1) {
   flex-basis: calc(100% / 3- 33px);
-}
+} */
 
 .card-heading {
   display: block;
   width: 370px;
 }
 .card-text {
-  margin: 20px 24px;
+  padding: 20px 24px;
   justify-content: center;
 }
