@@ -224,10 +224,11 @@ header {
 /* ---contacts section--- */
 .team {
   justify-content: space-between;
-  padding: 0 15px 94px;
+  padding: 94px 0;
 }
-/* .team.container {
-} */
+.team.container {
+  padding: 0 15px;
+}
 .team-card {
   display: flex;
   /* justify-content: space-between; */
@@ -245,13 +246,6 @@ header {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-}
-.team .title-name {
-  margin: 30px 59px 10px;
-}
-
-.team .text {
-  padding: 0 70px 30px;
 }
 
 .team .item {
@@ -276,7 +270,9 @@ li {
 }
 .footer address {
   display: block;
-  width: 1200px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   font-style: normal;
   margin-bottom: 9px;
 }
@@ -294,6 +290,12 @@ li {
 .mail {
   margin-bottom: 9px;
 }
+.contacts .link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 /*------------page Potfolio----*/
 .portfolio .button {
   padding: 6px 22px;
